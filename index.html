@@ -5,9 +5,11 @@
 	<title>My PortFolio</title>
 	<meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
+	<!-- <link href="https://fonts.googleapis.com/css?family=Kavivanar&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cormorant+Garamond|Kavivanar&display=swap" rel="stylesheet">
 
 	<style>
+		
 		.top{
 			position: absolute;
 			top: 45%;
@@ -16,8 +18,15 @@
 			transform: translate(-50%, -50%);
 			padding: 30px;
 			min-width: 200px;
+			max-width: 100% !important;
 			text-align: center;
-			background: rgba(253, 253, 253, 0.7)
+			background: rgb(63, 50, 63);
+			color: white;
+			/* font-family: 'Alegreya Sans', sans-serif; */
+			/* font-family: 'Kavivanar', cursive; */
+/* font-family: 'Alegreya Sans', sans-serif; */
+/* font-family: 'Cormorant Garamond', serif; */
+
 		}
 		.bg{
 			background: rgba(253, 253, 253, 0.7);
@@ -37,7 +46,7 @@
 		}
 
 		p{
-			max-width: 700px;
+			/* max-width: 700px; */
 			/* text-align: center; */
 			/* justify-content: center; */
 			/* left: 50%;
@@ -59,14 +68,19 @@
 
 	p:nth-child(1){
 		font-size: 48px;
-		    font-weight: bold;
+		    font-weight:
 	}
 
 	p:nth-child(2){
 		font-size: 20px;
-		font-weight: light;
+		font-weight:lighter;
 	}
-
+	p:nth-child(2)::before{
+		content: '';
+		min-width: 20%;
+		position: absolute;
+		
+	}
 	img{
 		max-width: 100px;
 		height: 100px;
@@ -103,13 +117,17 @@
 	#particles-js{
 		/* height: 100%; */
 		/* width: 100%; */
-		background: rgb(27, 25, 27);
+		background: rgb(12, 1, 12);
 		overflow: hidden;
 	}
 
 	body{
-		height: 100%;
+		height: 100vh;
 		overflow: hidden;
+		/* font-family: 'Kavivanar', cursive; */
+		/* font-family: 'Kavivanar', cursive; */
+font-family: 'Alegreya Sans', sans-serif;
+/* font-family: 'Cormorant Garamond', serif; */
 		
 	}
 
@@ -169,7 +187,7 @@
 							<span
 							class="txt-rotate"
 							data-period="1000"
-							data-rotate='[ "Omonkhodion Godswill.", "a Software Developer.", "Simple.", "waiting to meet you." ]'></span>
+							data-rotate='[ "Omonkhodion Godswill.", "a Software Developer.", "a designer", "waiting to meet you." ]'></span>
 						<span id='anime' ></span>
 					</p>
 					
@@ -178,7 +196,10 @@
 				
 				<div class="col-sm-12 top" id="more">
 					<p>More contents</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint optio sed quisquam vero eius error, voluptates minima accusamus dignissimos autem beatae atque, pariatur aperiam. Libero architecto dolore fugiat ad.</p>
+					<p>Meticulous and versatile web developer with great front end experience and forte for responsive website design and a firm believer in the mobile-first approach.
+						I have a wide range of valuable transferable skills gained thr ough study, volunteering and internships that can be used across various job roles and functions.
+						<br ><br > &#8226; CORE COMPETENCIES: &nbsp;	 &#9702;&nbsp;	HyperText Markup Language(HTML)&nbsp;	 &#9702;&nbsp;	JavaScript(JS)&nbsp;	 &#9702;&nbsp;	Content Management Systems (CMS)&nbsp;	 &#9702;&nbsp;	UI(figma, XD, photoshop)
+					</p>
 
 				</div>
 				<div class="col-sm-12 top" id="workdone">
