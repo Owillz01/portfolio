@@ -14,9 +14,34 @@
 			left: 50%;
 			/*justify-content: center;*/
 			transform: translate(-50%, -50%);
+			padding: 30px;
 			min-width: 200px;
 			text-align: center;
 			background: rgba(253, 253, 253, 0.7)
+		}
+		.bg{
+			background: rgba(253, 253, 253, 0.7);
+			width: 100%;
+
+		}
+		.img2{    
+			position: absolute;
+   				 top: 50%;
+   				 left: 50%;
+    			/* justify-content: center; */
+   				 transform: translate(50%, -50%);
+   				 padding: 30px;
+   				 max-width: 300px;
+  				  text-align: end;
+
+		}
+
+		p{
+			max-width: 700px;
+			/* text-align: center; */
+			/* justify-content: center; */
+			/* left: 50%;
+			margin-left: -350px; */
 		}
 
 		.links{
@@ -24,7 +49,7 @@
 			top: 70%;
 			left: 50%;
 			/*max-width: 100px;*/
-			margin-left: -50px;
+			/* margin-left: -50px; */
 			/*max-width: 300px;*/
 			/*margin-left: -150px;*/
 			text-align: center;
@@ -52,7 +77,8 @@
 	a{
 		color: black;
 		    font-weight: bold;
-		    padding: 4px;
+		    padding: 10px;
+			color: whitesmoke;
 		    /*outline: solid 1px black;*/
 		    border-radius: 800px;
 		    margin: 4px;
@@ -62,12 +88,16 @@
 	a:hover{
 		color: black;
 		    font-weight: bold;
-		    padding: 4px;
-		    outline: solid 1px black;
+		    /* padding: 4px; */
+		    /* outline: solid 1px black; */
 		    border-radius: 800px;
 		    margin: 4px;
 		    text-decoration: none;
-		    transform: all 2s;
+		    /* transform: all 2s; */
+			background: whitesmoke;
+    		outline: none;
+    		padding: 10px;
+			color: black;
 
 	}
 	#particles-js{
@@ -92,7 +122,46 @@
 		<section  class="container-fluid">
 			<div class="row">
 
-				<div class="col-sm-12 top" id="home">
+				<!-- <div class="col-sm-12 col-md-8 top">
+						<div class="bg">
+								<div class="col-sm-12 col-md-6" id="home">
+
+						
+										<p>Hi There!</p>
+										<p>I am 
+												<span
+												class="txt-rotate"
+												data-period="1000"
+												data-rotate='[ "Omonkhodion Godswill.", "a Software Developer.", "Simple.", "waiting to meet you." ]'></span>
+											<span id='anime' ></span>
+										</p>
+										
+									</div>
+					
+									
+									<div class="col-sm-12 " id="more">
+										<p>More contents</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint optio sed quisquam vero eius error, voluptates minima accusamus dignissimos autem beatae atque, pariatur aperiam. Libero architecto dolore fugiat ad.</p>
+					
+									</div>
+									<div class="col-sm-12 " id="workdone">
+										<p>Workdone</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, aliquid magnam cupiditate quos repellendus ex, nihil rerum ab odio soluta quis, modi non doloremque quisquam perferendis delectus dolore quae? Quisquam!</p>
+									</div>
+									<div  class="col-sm-12 " id="contact">
+										<p>Contact</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam ea ipsum cum doloribus quia nemo dolor modi, laudantium, obcaecati, ullam veritatis! Ab nam sint tempora aut distinctio, in a.</p>
+									</div>
+						</div>
+		
+						<div class="col-sm-12 col-md-4 img2">
+								<div>
+										<img src="https://via.placeholder.com/100" alt="profil photo">
+									</div>
+						</div>
+						</div> -->
+
+				<div class="col-sm-12 col-md-6 top" id="home">
 
 						
 					<p>Hi There!</p>
@@ -120,6 +189,8 @@
 					<p>Contact</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam ea ipsum cum doloribus quia nemo dolor modi, laudantium, obcaecati, ullam veritatis! Ab nam sint tempora aut distinctio, in a.</p>
 				</div>
+
+
 				<div class="col-sm-12 links">
 					<div>
 						<img src="https://via.placeholder.com/100" alt="profil photo">
